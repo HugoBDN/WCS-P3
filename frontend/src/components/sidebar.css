@@ -1,0 +1,26 @@
+.sidenav-enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.sidenav-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 500ms,
+    transform 500ms;
+}
+
+.sidenav-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sidenav-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition:
+    opacity 200ms,
+    transform 200ms;
+  cursor: pointer;
+}

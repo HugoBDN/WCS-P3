@@ -1,0 +1,14 @@
+@keyframes slideSmartCart {
+  from {
+    top: 50%;
+    right: -20%;
+  }
+  to {
+    top: 50%;
+    right: 0;
+  }
+}
+
+.animate-slideSmartCart {
+  animation: slideSmartCart 1s ease-in-out forwards;
+}
